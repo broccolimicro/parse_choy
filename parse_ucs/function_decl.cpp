@@ -5,7 +5,7 @@
 #include <parse/default/white_space.h>
 #include <parse/default/new_line.h>
 
-namespace parse_ucs {
+namespace parse_choy {
 
 function_decl::function_decl() {
 	debug_name = "wv_function_decl";

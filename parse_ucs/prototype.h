@@ -8,10 +8,10 @@
 #include "type_name.h"
 #include "expression.h"
 
-namespace parse_ucs {
+namespace parse_choy {
 
 struct prototype : parse::syntax {
-	using declaration=parse_ucs::declaration_t<expression>;
+	using declaration=parse_choy::declaration_t<expression>;
 
 	prototype();
 	prototype(tokenizer &tokens, std::any data=std::any());

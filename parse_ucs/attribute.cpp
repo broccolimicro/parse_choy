@@ -6,7 +6,7 @@
 #include <parse/default/white_space.h>
 #include <parse/default/new_line.h>
 
-namespace parse_ucs {
+namespace parse_choy {
 
 attribute::attribute() {
 	debug_name = "wv_attribute";

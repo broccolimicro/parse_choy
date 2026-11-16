@@ -10,13 +10,13 @@
 
 #include <memory>
 
-namespace parse_ucs {
+namespace parse_choy {
 
 // This represent **desired behaviors**
 // 1. Behavioral
 // 2. Functional
 struct function : parse::syntax {
-	using declaration=parse_ucs::declaration_t<expression>;
+	using declaration=parse_choy::declaration_t<expression>;
 
 	function();
 	function(tokenizer &tokens, std::any data=std::any());

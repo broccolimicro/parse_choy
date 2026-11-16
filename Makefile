@@ -1,4 +1,4 @@
-NAME          = parse_ucs
+NAME          = parse_choy
 DEPEND        = parse_expression parse common
 TEST_DEPEND   = parse_expression parse common
 

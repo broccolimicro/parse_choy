@@ -5,7 +5,7 @@
 #include "function.h"
 #include "datatype.h"
 
-namespace parse_ucs
+namespace parse_choy
 {
 
 struct source : parse::syntax

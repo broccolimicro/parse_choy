@@ -3,7 +3,7 @@
 #include <parse/default/symbol.h>
 #include <parse/default/number.h>
 
-namespace parse_ucs {
+namespace parse_choy {
 
 type_name::type_name() {
 	debug_name = "wv_type_name";

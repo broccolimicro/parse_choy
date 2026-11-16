@@ -3,7 +3,7 @@
 #include <parse/parse.h>
 #include <parse/syntax.h>
 
-namespace parse_ucs {
+namespace parse_choy {
 
 struct type_name : parse::syntax {
 	type_name();

@@ -7,7 +7,7 @@
 #include <parse/wrapper.h>
 #include "type_name.h"
 
-namespace parse_ucs {
+namespace parse_choy {
 
 parse_expression::config makeExprConfig();
 parse_expression::config makeCompConfig();

@@ -7,10 +7,10 @@
 #include "type_name.h"
 #include "expression.h"
 
-namespace parse_ucs {
+namespace parse_choy {
 
 struct function_decl : parse::syntax {
-	using declaration=parse_ucs::declaration_t<expression>;
+	using declaration=parse_choy::declaration_t<expression>;
 
 	function_decl();
 	function_decl(tokenizer &tokens, std::any data=std::any());

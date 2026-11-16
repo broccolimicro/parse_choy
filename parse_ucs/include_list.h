@@ -4,7 +4,7 @@
 #include <parse/syntax.h>
 #include "include.h"
 
-namespace parse_ucs
+namespace parse_choy
 {
 
 struct include_list : parse::syntax

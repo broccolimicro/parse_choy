@@ -6,7 +6,7 @@
 #include <parse/default/white_space.h>
 #include <parse/default/new_line.h>
 
-namespace parse_ucs {
+namespace parse_choy {
 
 type_signature::type_signature() {
 	debug_name = "wv_type_signature";

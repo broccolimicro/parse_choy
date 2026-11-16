@@ -5,7 +5,7 @@
 #include "require.h"
 #include "attribute.h"
 
-namespace parse_ucs
+namespace parse_choy
 {
 
 struct modfile : parse::syntax {

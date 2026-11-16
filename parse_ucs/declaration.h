@@ -9,11 +9,11 @@
 #include <parse/default/new_line.h>
 #include "type_name.h"
 
-namespace parse_ucs {
+namespace parse_choy {
 
 template <typename expression>
 struct variable_t {
-	using variable=parse_ucs::variable_t<expression>;
+	using variable=parse_choy::variable_t<expression>;
 
 	string name;
 	vector<expression> size;
@@ -33,8 +33,8 @@ struct variable_t {
 
 template <typename expression>
 struct declaration_t : parse::syntax {
-	using variable=parse_ucs::variable_t<expression>;
-	using declaration=parse_ucs::declaration_t<expression>;
+	using variable=parse_choy::variable_t<expression>;
+	using declaration=parse_choy::declaration_t<expression>;
 
 	type_name type;
 	vector<variable> name;

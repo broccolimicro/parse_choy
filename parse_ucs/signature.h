@@ -8,7 +8,7 @@
 #include "type_signature.h"
 #include "expression.h"
 
-namespace parse_ucs {
+namespace parse_choy {
 
 struct signature : parse::syntax {
 	signature();

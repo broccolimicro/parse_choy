@@ -1,4 +1,4 @@
-# parse_ucs
+# parse_choy
 
 A library for parsing variable names and saving them in a variable space
 
