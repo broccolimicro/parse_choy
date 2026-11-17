@@ -8,11 +8,11 @@
 namespace parse_choy {
 
 datatype::datatype() {
-	debug_name = "wv_datatype";
+	debug_name = "choy_datatype";
 }
 
 datatype::datatype(tokenizer &tokens, std::any data) {
-	debug_name = "wv_datatype";
+	debug_name = "choy_datatype";
 	parse(tokens, data);
 }
 

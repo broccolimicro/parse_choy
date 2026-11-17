@@ -6,11 +6,11 @@
 namespace parse_choy {
 
 type_name::type_name() {
-	debug_name = "wv_type_name";
+	debug_name = "choy_type_name";
 }
 
 type_name::type_name(tokenizer &tokens, std::any data) {
-	debug_name = "wv_type_name";
+	debug_name = "choy_type_name";
 	parse(tokens, data);
 }
 

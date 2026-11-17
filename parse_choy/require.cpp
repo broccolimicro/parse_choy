@@ -9,11 +9,11 @@
 namespace parse_choy {
 
 require::require() {
-	debug_name = "wv_require";
+	debug_name = "choy_require";
 }
 
 require::require(tokenizer &tokens, std::any data) {
-	debug_name = "wv_require";
+	debug_name = "choy_require";
 	parse(tokens, data);
 }
 

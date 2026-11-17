@@ -8,11 +8,11 @@
 namespace parse_choy {
 
 function::function() {
-	debug_name = "wv_function";
+	debug_name = "choy_function";
 }
 
 function::function(tokenizer &tokens, std::any data) {
-	debug_name = "wv_function";
+	debug_name = "choy_function";
 	body = nullptr;
 	parse(tokens, data);
 }

@@ -9,11 +9,11 @@
 namespace parse_choy {
 
 prototype::prototype() {
-	debug_name = "wv_prototype";
+	debug_name = "choy_prototype";
 }
 
 prototype::prototype(tokenizer &tokens, std::any data) {
-	debug_name = "wv_prototype";
+	debug_name = "choy_prototype";
 	parse(tokens, data);
 }
 

@@ -9,11 +9,11 @@
 namespace parse_choy {
 
 attribute::attribute() {
-	debug_name = "wv_attribute";
+	debug_name = "choy_attribute";
 }
 
 attribute::attribute(tokenizer &tokens, std::any data) {
-	debug_name = "wv_attribute";
+	debug_name = "choy_attribute";
 	parse(tokens, data);
 }
 

@@ -7,7 +7,7 @@ std::shared_ptr<parse_expression::config> expression_config::cfg =
 	std::make_shared<parse_expression::config>(parse_choy::makeExprConfig());
 
 expression_config::expression_config() {
-	debug_name = "wv";
+	debug_name = "choy";
 }
 
 expression_config::~expression_config() {
@@ -17,7 +17,7 @@ std::shared_ptr<parse_expression::config> composition_config::cfg =
 	std::make_shared<parse_expression::config>(parse_choy::makeCompConfig());
 
 composition_config::composition_config() {
-	debug_name = "wv";
+	debug_name = "choy";
 }
 
 composition_config::~composition_config() {

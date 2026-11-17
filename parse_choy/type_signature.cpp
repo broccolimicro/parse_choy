@@ -9,11 +9,11 @@
 namespace parse_choy {
 
 type_signature::type_signature() {
-	debug_name = "wv_type_signature";
+	debug_name = "choy_type_signature";
 }
 
 type_signature::type_signature(tokenizer &tokens, std::any data) {
-	debug_name = "wv_type_signature";
+	debug_name = "choy_type_signature";
 	parse(tokens, data);
 }
 

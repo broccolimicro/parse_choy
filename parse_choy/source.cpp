@@ -8,11 +8,11 @@
 namespace parse_choy {
 
 source::source() {
-	debug_name = "wv_source";
+	debug_name = "choy_source";
 }
 
 source::source(tokenizer &tokens, std::any data) {
-	debug_name = "wv_source";
+	debug_name = "choy_source";
 	parse(tokens, data);
 }
 

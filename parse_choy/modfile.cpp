@@ -10,12 +10,12 @@ namespace parse_choy
 
 modfile::modfile()
 {
-	debug_name = "wv_modfile";
+	debug_name = "choy_modfile";
 }
 
 modfile::modfile(tokenizer &tokens, std::any data)
 {
-	debug_name = "wv_modfile";
+	debug_name = "choy_modfile";
 	parse(tokens, data);
 }
 

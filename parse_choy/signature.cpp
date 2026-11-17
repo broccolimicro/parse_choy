@@ -9,12 +9,12 @@
 namespace parse_choy {
 
 signature::signature() {
-	debug_name = "wv_signature";
+	debug_name = "choy_signature";
 	qualified = false;
 }
 
 signature::signature(tokenizer &tokens, std::any data) {
-	debug_name = "wv_signature";
+	debug_name = "choy_signature";
 	qualified = false;
 	parse(tokens, data);
 }

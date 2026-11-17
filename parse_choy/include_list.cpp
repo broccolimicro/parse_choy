@@ -8,11 +8,11 @@
 namespace parse_choy {
 
 include_list::include_list() {
-	debug_name = "wv_include_list";
+	debug_name = "choy_include_list";
 }
 
 include_list::include_list(tokenizer &tokens, std::any data) {
-	debug_name = "wv_include_list";
+	debug_name = "choy_include_list";
 	parse(tokens, data);
 }
 

@@ -41,11 +41,11 @@ struct declaration_t : parse::syntax {
 	vector<expression> reset;
 
 	declaration_t() {
-		debug_name = "wv_declaration";
+		debug_name = "choy_declaration";
 	}
 
 	declaration_t(tokenizer &tokens, std::any data=std::any()) {
-		debug_name = "wv_declaration";
+		debug_name = "choy_declaration";
 		parse(tokens, data);
 	}
 
